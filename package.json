@@ -1,0 +1,46 @@
+{
+  "name": "electron-pane-window",
+  "version": "0.0.0",
+  "description": "Create a pane style window, no frame, no titlebar, stick the window on the sides of screen",
+  "license": "MIT",
+  "repository": "ragingwind/electron-pane-window",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "start": "electron ./demo"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "electron",
+    "pane",
+    "electron-pane-window"
+  ],
+  "dependencies": {
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "electron-debug": "^0.2.1",
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.34.0",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node"
+    ]
+  },
+  "jshintConfig": {
+    "esnext": true,
+    "node": true
+  }
+}
